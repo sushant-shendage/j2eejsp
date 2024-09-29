@@ -12,9 +12,12 @@
   String name =request.getParameter("sname");
 %>
 
-<pre>sid : <%= id %></pre>
+<pre>sid :  <%= id   %></pre>
 <pre>sname: <%= name %></pre>
 
 
 </body>
 </html>
+
+
+

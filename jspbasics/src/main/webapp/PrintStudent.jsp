@@ -12,11 +12,13 @@
         // Retrieve student object from request scope
         Student student = (Student) request.getAttribute("student");
         
-        if (student != null) {
+        if (student != null) 
+        {
             out.println("<p>Student ID: " + student.getId() + "</p>");
             out.println("<p>Student Name: " + student.getName() + "</p>");
              
-        } else {
+        } else 
+        {
             out.println("<p>No student information available.</p>");
         }
     %>
